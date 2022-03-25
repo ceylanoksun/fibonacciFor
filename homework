@@ -1,0 +1,16 @@
+public class Fibonacci {
+	public static void main(String args[]) {
+		int a,b,c;
+		a=0;
+		c=0;
+		b=1;
+		for(i=0;i<10000;++i)
+		{
+			c=a+b;
+			if(c>1000 && c<10000) System.out.println(c);
+			a=b;
+			b=c;
+		}
+		System.out.println();
+	}
+}
